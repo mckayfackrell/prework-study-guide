@@ -4,19 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>The head element contains information about the webpage</li>
+          <li>The body element represents the visible content shown to the user</li>
+          <li>Enter your HTML notes header</li>
+          <li>h1,h2, h3,h4,h5 and h6: different headings and subheadings</li>
+          <li>p: paragraph or block of text</li>
+          <li>ul,ol, and li: unordered lists, ordered lists, and list items
+            <ul class="customIndent">
+              (so the list must begin with ul and then the items must have li before them)
+            </ul>
+          <li>img: contains information about an image on the webpage
+           <ul class="cutomIndent">
+            <li>src: has information about the specific image and where it is on the webpage</li>
+            <li>alt: alternative name that describes the image and is useful for screen readers</li>
+            <li>width: ie 520</li>
+            <li>height: ie 346</li>
+          </ul>
+          </li>
+          <li>br: creates a line of empty space or a line break</li>
+          <li>a: creates links to same webpage or other webpages
+             <ul custom="customIndent">
+            href attributes points to the URL for the link
+                ie < a href="https://apple.com">Apple</a > <a href="https://apple.com">Apple</a>
+             </ul>
+          </li>
+        </ul>
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>CSS is broken into three styles: inline CSS, internal CSS style sheet, and external CSS style sheet. 
+            Inline CSS: when a developer wants to style an element directly in the HTML file</li>
+          <li>The best case scenario is to create a style sheet as a separate sheet where the elements live</li>
+          <li>In order to link the stylesheet you must add code after the head and before the title (after the last meta)</li>
+          <ul custom="customIndent">
+             < link rel="stylesheet" href="./assets/style.css" >
+             </ul>
+        </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>Enter your Git notes here</li>
+          <li>git status: checks what branch we are currently on</li>
+          <li>git checkout -b bracnh-name: creates a new branch and switches to it</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <H2>JavaScript</H2>
+        <ul>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>Arrays store a group of data
+            <ul custom="customIndent">
+              <li>Example var studentInfo = ["Lu", 54, true]; </li>
+              <li>Notice that only the student's name, "Lu", is surrounded by quotation marks. That is because Lu is a string, and strings need to be contained within quotation marks.</li>
+              <li>Since 54 is a number and true is a Boolean value, no quotation marks are necessary for those values. As you can see, this array contains a string, a number, and a Boolean value.</li>
+            </ul>
+        </ul>
+      </section>
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
