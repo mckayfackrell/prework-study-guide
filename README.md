@@ -31,4 +31,4 @@ Please refer to the LICENSE in the repo.
 
 ## Features
 
-JavaScript code randomizing a section to study from the webpage
+JavaScript code randomizing a section to study from the webpage.
